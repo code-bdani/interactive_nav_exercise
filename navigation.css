@@ -1,0 +1,28 @@
+.main-nav {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: gray;
+    background: blueviolet;
+}
+
+a:active {
+    color: pink;
+}
