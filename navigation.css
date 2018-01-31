@@ -1,28 +1,36 @@
-.main-nav {
-    list-style: none;
+nav ul {
+    list-style-type: none;  /* Removes default bullets from unordered list */
+    display: flex;
+    flex-direction: column;
 }
 
-a {
-    color: black;
+nav li {
+    margin: 0;
+    padding-bottom: 1em;
 }
 
-a:link {
-    color: black;
+nav a {
+    text-decoration: none;  /* Removes default text-underline from links */
 }
 
-a:visited {
-    color: blue;
+nav a:link {
+    color: black;       /* Changes default color of unvisted links from blue to black */
 }
 
-a:focus {
-    color: green;
+nav a:visited {
+    color: black;       /* Changes default color of visted links from purple to black */
 }
 
-a:hover {
-    color: gray;
-    background: blueviolet;
+nav a:hover {
+    color: white;       /* Changes default color of links to white with a black background when hovered over */
+    background: black;
 }
 
-a:active {
-    color: pink;
+nav li:active {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+nav a:focus {
+    color: teal;       /* Changes default color of active link */
 }
